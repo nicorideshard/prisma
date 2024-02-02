@@ -23,7 +23,7 @@ Tener instalado Node.js en el computador con una version igual o superior a la 1
 3. Instalar dependencias
 
     ```bash
-    npm install
+    npm install express prisma
     ```
 
 ## Configurar Base de Datos
