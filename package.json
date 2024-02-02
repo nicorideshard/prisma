@@ -1,7 +1,0 @@
-{
-  "description": "",
-  "dependencies": {
-    "@prisma/client": "^5.9.0",
-    "prisma": "^5.9.0"
-  }
-}
