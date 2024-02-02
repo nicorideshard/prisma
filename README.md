@@ -67,3 +67,8 @@ El servidor empezara a ejecutarse en http://localhost:3000.
 ```bash
     GET /api/loans/
 ```
+
+4. Buscar libro por codigo
+```bash
+    GET /api/books/:code
+```
