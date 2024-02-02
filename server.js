@@ -41,7 +41,7 @@ app.get('/api/books', async (req, res) => {
     }
   });
 
-// API endpoint to list all available books
+// API endpoint to list all available clients
 app.get('/api/clients', async (req, res) => {
     try {
       const clients = await client.findMany();
@@ -52,7 +52,7 @@ app.get('/api/clients', async (req, res) => {
     }
   });
 
-// API endpoint to list all available books
+// API endpoint to list all available loans
 app.get('/api/loans', async (req, res) => {
     try {
       const loans = await loan.findMany();
